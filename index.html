@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Tabs Example</title>
+    <style>
+        .tablinks {
+            cursor: pointer;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+        }
+        .tablinks.active {
+            background-color: #ccc;
+        }
+        .tabcontent {
+            display: none;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+        }
+        .tabcontent.active {
+            display: block;
+        }
+        .pdf-container {
+            margin-bottom: 20px;
+        }
+        .pdf-title {
+            font-weight: bold;
+        }
+        .no-download {
+            pointer-events: none;
+            user-select: none;
+        }
+        embed {
+            width: 100%;
+            height: 600px;
+        }
+        embed::part(button) {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>PDF Tabs Example</h1>
+    <div id="tabs">
+        <button class="tablinks" onclick="openTab(event, 'WRAP')">WRAP</button>
+        <button class="tablinks" onclick="openTab(event, 'BSCI')">BSCI</button>
+        <button class="tablinks" onclick="openTab(event, 'SMETA')">SMETA</button>
+        <button class="tablinks" onclick="openTab(event, 'FSLM')">FSLM</button>
+        <button class="tablinks" onclick="openTab(event, 'HIGGFEM')">HIGG FEM</button>
+    </div>
+
+    <div id="WRAP" class="tabcontent">
+        <h3>WRAP</h3>
+        <div class="pdf-container">
+            <div class="pdf-title">wrapra.pdf</div>
+            <embed src="wrapra.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">Seal-broken-Policy-during-Transit.pdf</div>
+            <embed src="Seal-broken-Policy-during-Transit.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">Seal-discrepency-policy.pdf</div>
+            <embed src="Seal-discrepency-policy.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">VVTT-Proceudre-for-seal-checking.pdf</div>
+            <embed src="VVTT-Proceudre-for-seal-checking.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">Detailed-Seal-Issues-Audit-Checklist.pdf</div>
+            <embed src="Detailed-Seal-Issues-Audit-Checklist.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">wrap6.pdf</div>
+            <embed src="wrap6.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">wrap7.pdf</div>
+            <embed src="wrap7.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">wrap8.pdf</div>
+            <embed src="wrap8.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">wrap9.pdf</div>
+            <embed src="wrap9.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">wrapra0.pdf</div>
+            <embed src="wrapr10.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">wrap11.pdf</div>
+            <embed src="wrapr11.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+    </div>
+    <div id="BSCI" class="tabcontent">
+        <h3>BSCI</h3>
+        <div class="pdf-container">
+            <div class="pdf-title">bsci1.pdf</div>
+            <embed src="bsci1.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">bsci2.pdf</div>
+            <embed src="bsci2.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">bsci3.pdf</div>
+            <embed src="bsci3.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">bsci4.pdf</div>
+            <embed src="bsci4.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">bsci5.pdf</div>
+            <embed src="bsci5.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">bsci6.pdf</div>
+            <embed src="bsci6.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">bsci7.pdf</div>
+            <embed src="bsci7.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">bsci8.pdf</div>
+            <embed src="bsci8.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">bsci9.pdf</div>
+            <embed src="bsci9.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">bsci10.pdf</div>
+            <embed src="bsci10.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+    </div>
+    <div id="SMETA" class="tabcontent">
+        <h3>SMETA</h3>
+        <div class="pdf-container">
+            <div class="pdf-title">smeta1.pdf</div>
+            <embed src="smeta1.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">smeta2.pdf</div>
+            <embed src="smeta2.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">smeta3.pdf</div>
+            <embed src="smeta3.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">smeta4.pdf</div>
+            <embed src="smeta4.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">smeta5.pdf</div>
+            <embed src="smeta5.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">smeta6.pdf</div>
+            <embed src="smeta6.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">smeta7.pdf</div>
+            <embed src="smeta7.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">smeta8.pdf</div>
+            <embed src="smeta8.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">smeta9.pdf</div>
+            <embed src="smeta9.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">smeta10.pdf</div>
+            <embed src="smeta10.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+    </div>
+    <div id="FSLM" class="tabcontent">
+        <h3>FSLM</h3>
+        <div class="pdf-container">
+            <div class="pdf-title">fslm1.pdf</div>
+            <embed src="fslm1.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">fslm2.pdf</div>
+            <embed src="fslm2.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">fslm3.pdf</div>
+            <embed src="fslm3.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">fslm4.pdf</div>
+            <embed src="fslm4.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">fslm5.pdf</div>
+            <embed src="fslm5.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">fslm6.pdf</div>
+            <embed src="fslm6.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">fslm7.pdf</div>
+            <embed src="fslm7.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">fslm8.pdf</div>
+            <embed src="fslm8.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">fslm9.pdf</div>
+            <embed src="fslm9.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">fslm10.pdf</div>
+            <embed src="fslm10.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+    </div>
+    <div id="HIGGFEM" class="tabcontent">
+        <h3>HIGG FEM</h3>
+        <div class="pdf-container">
+            <div class="pdf-title">higgfem1.pdf</div>
+            <embed src="higgfem1.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">higgfem2.pdf</div>
+            <embed src="higgfem2.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">higgfem3.pdf</div>
+            <embed src="higgfem3.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">higgfem4.pdf</div>
+            <embed src="higgfem4.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">higgfem5.pdf</div>
+            <embed src="higgfem5.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">higgfem6.pdf</div>
+            <embed src="higgfem6.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">higgfem7.pdf</div>
+            <embed src="higgfem7.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">higgfem8.pdf</div>
+            <embed src="higgfem8.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">higgfem9.pdf</div>
+            <embed src="higgfem9.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-title">higgfem10.pdf</div>
+            <embed src="higgfem10.pdf" width="600" height="400" type="application/pdf" class="no-download">
+        </div>
+    </div>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Set default active tab
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector(".tablinks").click();
+        });
+    </script>
+</body>
+</html>
